@@ -1,4 +1,3 @@
 <?php
-mysqli_connect("localhost", "root", "", "starbuck") or die("Could not connect to database");
+$koneksi = mysqli_connect("localhost", "root", "", "starbuck_rpl3") or die("Could not connect to database");
 
-var_dump($koneksi);
